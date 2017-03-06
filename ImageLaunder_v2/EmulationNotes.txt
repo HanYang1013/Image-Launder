@@ -1,0 +1,96 @@
+libjpeg:
+FB01 - emulating mobile upload, mobile download
+	- Baseline
+	- QT
+		Lum:
+			2, 2, 2, 3, 5, 6, 8, 10,
+			2, 2, 2, 3, 5, 6, 8, 10,
+			2, 2, 3, 5, 6, 8, 10, 12,
+			3, 3, 5, 6, 8, 10, 12, 14,
+			5, 5, 6, 8, 10, 12, 14, 15,
+			6, 6, 8, 10, 12, 14, 15, 15,
+			8, 8, 10, 12, 14, 15, 15, 15,
+			10, 10, 12, 14, 15, 15, 15, 15
+		Chr:
+			2, 2, 4, 7, 16, 16, 16, 16,
+			2, 4, 4, 11, 16, 16, 16, 16,
+			4, 4, 9, 16, 16, 16, 16, 16,
+			7, 11, 16, 16, 16, 16, 16, 16,
+			16, 16, 16, 16, 16, 16, 16, 16,
+			16, 16, 16, 16, 16, 16, 16, 16,
+			16, 16, 16, 16, 16, 16, 16, 16,
+			16, 16, 16, 16, 16, 16, 16, 16
+	- ** 1440 max resolution
+	- ** DRI marker 45
+	- ** header1, QT, HT
+FB02 - emulating Desktop upload, mobile download
+	same as FB01 but
+	- **2048 max resolution
+	- **DRI marker 96
+FB03 - emulating mobile upload, Desktop download
+	- Progressive
+	- QT
+		Lum:
+			9, 9, 9, 16, 22, 30, 38, 46,
+			9, 9, 9, 16, 22, 30, 38, 46,
+			9, 9, 16, 22, 30, 38, 46, 55,
+			16, 16, 22, 30, 38, 46, 55, 64,
+			22, 22, 30, 38, 46, 55, 64, 72,
+			30, 30, 38, 46, 55, 64, 72, 72,
+			38, 38, 46, 55, 64, 72, 72, 72,
+			46, 46, 55, 64, 72, 72, 72, 72
+		Chr:
+			11, 12, 18, 31, 75, 75, 75, 75,
+			12, 17, 17, 51, 75, 75, 75, 75,
+			18, 17, 42, 75, 75, 75, 75, 75,
+			31, 51, 75, 75, 75, 75, 75, 75,
+			75, 75, 75, 75, 75, 75, 75, 75,
+			75, 75, 75, 75, 75, 75, 75, 75,
+			75, 75, 75, 75, 75, 75, 75, 75,
+			75, 75, 75, 75, 75, 75, 75, 75
+	- 1440 max resolution
+FB04 - emulating Desktop upload, Desktop download
+	- Progressive
+	- QT
+		Lum:
+			5, 3, 3, 5, 7, 12, 15, 18,
+			4, 4, 4, 6, 8, 17, 18, 17,
+			4, 4, 5, 7, 12, 17, 21, 17,
+			4, 5, 7, 9, 15, 26, 24, 19,
+			5, 7, 11, 17, 20, 33, 31, 23,
+			7, 11, 17, 19, 24, 31, 34, 28,
+			15, 19, 23, 26, 31, 36, 36, 30,
+			22, 28, 29, 29, 34, 30, 31, 30
+		Chr:
+			5, 5, 7, 14, 30, 30, 30, 30,
+			5, 6, 8, 20, 30, 30, 30, 30,
+			7, 8, 17, 30, 30, 30, 30, 30,
+			14, 20, 30, 30, 30, 30, 30, 30,
+			30, 30, 30, 30, 30, 30, 30, 30,
+			30, 30, 30, 30, 30, 30, 30, 30,
+			30, 30, 30, 30, 30, 30, 30, 30,
+			30, 30, 30, 30, 30, 30, 30, 30
+	- **2048 max resolution
+
+
+===================
+Magick:
+FB01 - emulating mobile upload, mobile download
+	- Baseline
+	- Q = 93
+	- 1440 max resolution
+	- DRI marker 45
+	- header1, QT, HT
+FB02 - emulating Desktop upload, mobile download
+	- Baseline
+	- Q = 93
+	- 2048 max resolution
+	- DRI marker 96
+FB03 - emulating mobile upload, Desktop download
+	- Progressive
+	- Q = 64
+	- 1440 max resolution
+FB04 - emulating Desktop upload, Desktop download
+	- Progressive
+	- Q = 87
+	- 2048 max resolution

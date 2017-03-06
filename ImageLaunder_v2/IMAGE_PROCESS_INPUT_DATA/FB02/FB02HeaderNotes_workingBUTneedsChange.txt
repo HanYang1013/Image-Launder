@@ -1,0 +1,3 @@
+- FB02a : no chroma subsampling; FFCO chunk modified to work but is not perfect
+
+- FB02b : removed FFDD chunk (DRI data); must be added to be perfect

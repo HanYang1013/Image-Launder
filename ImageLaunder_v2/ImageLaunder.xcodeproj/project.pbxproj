@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F67D9391DDFDC110020727C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F67D9381DDFDC110020727C /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2F67D9331DDFDC110020727C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2F67D9351DDFDC110020727C /* ImageLaunder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ImageLaunder; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F67D9381DDFDC110020727C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2F67D9401DDFDC870020727C /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		2F67D9431DDFDEFA0020727C /* Facebook1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facebook1.h; sourceTree = "<group>"; };
+		2F67D9441DDFDEFA0020727C /* Facebook2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facebook2.h; sourceTree = "<group>"; };
+		2F67D9451DDFDEFA0020727C /* Facebook3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facebook3.h; sourceTree = "<group>"; };
+		2F67D9461DDFDEFA0020727C /* Facebook4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facebook4.h; sourceTree = "<group>"; };
+		2F67D9471DDFDEFA0020727C /* MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F67D9321DDFDC110020727C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F67D92C1DDFDC110020727C = {
+			isa = PBXGroup;
+			children = (
+				2F67D9401DDFDC870020727C /* Header.h */,
+				2F67D9431DDFDEFA0020727C /* Facebook1.h */,
+				2F67D9441DDFDEFA0020727C /* Facebook2.h */,
+				2F67D9451DDFDEFA0020727C /* Facebook3.h */,
+				2F67D9461DDFDEFA0020727C /* Facebook4.h */,
+				2F67D9471DDFDEFA0020727C /* MD5.h */,
+				2F67D9371DDFDC110020727C /* ImageLaunder */,
+				2F67D9361DDFDC110020727C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F67D9361DDFDC110020727C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F67D9351DDFDC110020727C /* ImageLaunder */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F67D9371DDFDC110020727C /* ImageLaunder */ = {
+			isa = PBXGroup;
+			children = (
+				2F67D9381DDFDC110020727C /* main.cpp */,
+			);
+			path = ImageLaunder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F67D9341DDFDC110020727C /* ImageLaunder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F67D93C1DDFDC110020727C /* Build configuration list for PBXNativeTarget "ImageLaunder" */;
+			buildPhases = (
+				2F67D9311DDFDC110020727C /* Sources */,
+				2F67D9321DDFDC110020727C /* Frameworks */,
+				2F67D9331DDFDC110020727C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageLaunder;
+			productName = ImageLaunder;
+			productReference = 2F67D9351DDFDC110020727C /* ImageLaunder */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F67D92D1DDFDC110020727C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Yang Han";
+				TargetAttributes = {
+					2F67D9341DDFDC110020727C = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2F67D9301DDFDC110020727C /* Build configuration list for PBXProject "ImageLaunder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2F67D92C1DDFDC110020727C;
+			productRefGroup = 2F67D9361DDFDC110020727C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F67D9341DDFDC110020727C /* ImageLaunder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F67D9311DDFDC110020727C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F67D9391DDFDC110020727C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2F67D93A1DDFDC110020727C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2F67D93B1DDFDC110020727C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2F67D93D1DDFDC110020727C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/jpeg/8d/lib,
+					/usr/local/Cellar/jpeg/8d/include,
+					"/usr/local/include/ImageMagick-6",
+					/usr/local/include,
+				);
+				OTHER_LDFLAGS = (
+					/usr/local/Cellar/jpeg/8d/lib/libjpeg.dylib,
+					/usr/local/Cellar/jpeg/8d/lib/libjpeg.a,
+					/usr/local/Cellar/jpeg/8d/lib/libjpeg.8.dylib,
+					"/usr/local/Cellar/imagemagick/6.9.6-4/lib/libMagickWand-6.Q16.dylib",
+					"/usr/local/Cellar/imagemagick/6.9.6-4/lib/libMagickWand-6.Q16.a",
+					"/usr/local/Cellar/imagemagick/6.9.6-4/lib/libMagickWand-6.Q16.2.dylib",
+					"/usr/local/Cellar/imagemagick/6.9.6-4/lib/libMagickCore-6.Q16.dylib",
+					"/usr/local/Cellar/imagemagick/6.9.6-4/lib/libMagickCore-6.Q16.a",
+					"/usr/local/Cellar/imagemagick/6.9.6-4/lib/libMagickCore-6.Q16.2.dylib",
+					"/usr/local/Cellar/imagemagick/6.9.6-4/lib/libMagick++-6.Q16.dylib",
+					"/usr/local/Cellar/imagemagick/6.9.6-4/lib/libMagick++-6.Q16.a",
+					"/usr/local/Cellar/imagemagick/6.9.6-4/lib/libMagick++-6.Q16.6.dylib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2F67D93E1DDFDC110020727C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/jpeg/8d/lib,
+					/usr/local/Cellar/jpeg/8d/include,
+					"/usr/local/include/ImageMagick-6",
+					/usr/local/include,
+				);
+				OTHER_LDFLAGS = (
+					/usr/local/Cellar/jpeg/8d/lib/libjpeg.dylib,
+					/usr/local/Cellar/jpeg/8d/lib/libjpeg.a,
+					/usr/local/Cellar/jpeg/8d/lib/libjpeg.8.dylib,
+					"/usr/local/Cellar/imagemagick/6.9.6-4/lib/libMagickWand-6.Q16.dylib",
+					"/usr/local/Cellar/imagemagick/6.9.6-4/lib/libMagickWand-6.Q16.a",
+					"/usr/local/Cellar/imagemagick/6.9.6-4/lib/libMagickWand-6.Q16.2.dylib",
+					"/usr/local/Cellar/imagemagick/6.9.6-4/lib/libMagickCore-6.Q16.dylib",
+					"/usr/local/Cellar/imagemagick/6.9.6-4/lib/libMagickCore-6.Q16.a",
+					"/usr/local/Cellar/imagemagick/6.9.6-4/lib/libMagickCore-6.Q16.2.dylib",
+					"/usr/local/Cellar/imagemagick/6.9.6-4/lib/libMagick++-6.Q16.dylib",
+					"/usr/local/Cellar/imagemagick/6.9.6-4/lib/libMagick++-6.Q16.a",
+					"/usr/local/Cellar/imagemagick/6.9.6-4/lib/libMagick++-6.Q16.6.dylib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F67D9301DDFDC110020727C /* Build configuration list for PBXProject "ImageLaunder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F67D93A1DDFDC110020727C /* Debug */,
+				2F67D93B1DDFDC110020727C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F67D93C1DDFDC110020727C /* Build configuration list for PBXNativeTarget "ImageLaunder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F67D93D1DDFDC110020727C /* Debug */,
+				2F67D93E1DDFDC110020727C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F67D92D1DDFDC110020727C /* Project object */;
+}
